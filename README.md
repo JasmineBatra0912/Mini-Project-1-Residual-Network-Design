@@ -14,12 +14,13 @@ Jasmine Batra - jb7854@nyu.edu, Sachin Karthik Kumar - sk9622@nyu.edu, Rudrasinh
 
 
 **Abstract** 
-
+<div style="text-align: right"> 
 Deep Learning algorithms are created to replicate the function of the human cerebral cortex. These algorithms are deep neural network representations, or neural networks with numerous hidden layers. Convolutional neural networks are deep learning algorithms that can train enormous datasets with millions of parameters using 2D images as input and filtering to get the required outputs. To improve the performance of neural networks, the proposal of residual neural networks has a great contribution to the advancement of the bottleneck of traditional networks. Our goal was to maximize the accuracy of CIFAR-10 by reducing the number of model parameters under limit. On the CIFAR-10 dataset, we reduced the number of parameters and performance is evaluated using different augmentation techniques different regularization techniques on ResNet architectures.
+</div>
   
 **Introduction**
 
-Deep Learning has been developing since the introduction of AlexNet. As with the emergence of GoogleNet, VGG, and Inception, the deeper the number of layers in a network is, the more complex the network is. The deeper the network is, more features can be extracted and the performance will be strong[4]. Residual Networks are one of the most used for image classification. Detecting an object or recognizing an image from a digital image or video is a difficult challenge.[1]. Deep neural networks have layers that extract many features and hence provide multiple degrees of abstraction. This cannot extract or work on numerous data sets unlike shallow networks. By inputting a 2D image and convolving it with filters/kernels and producing output volumes, convolutional neural networks is a sophisticated deep learning algorithm capable of coping with millions of parameters and saving computing cost.
+Deep Learning has been developing since the introduction of AlexNet. As with the emergence of GoogleNet, VGG, and Inception, the deeper the number of layers in a network is, the more complex the network is. The deeper the network is, more features can be extracted and the performance will be strong. Residual Networks are one of the most used for image classification. Detecting an object or recognizing an image from a digital image or video is a difficult challenge. Deep neural networks have layers that extract many features and hence provide multiple degrees of abstraction. This cannot extract or work on numerous data sets unlike shallow networks. By inputting a 2D image and convolving it with filters/kernels and producing output volumes, convolutional neural networks is a sophisticated deep learning algorithm capable of coping with millions of parameters and saving computing cost.
 
 
 **Dataset**
