@@ -14,9 +14,9 @@ Jasmine Batra - jb7854@nyu.edu, Sachin Karthik Kumar - sk9622@nyu.edu, Rudrasinh
 
 
 **Abstract** 
-<div style="text-align: right"> 
+ 
 Deep Learning algorithms are created to replicate the function of the human cerebral cortex. These algorithms are deep neural network representations, or neural networks with numerous hidden layers. Convolutional neural networks are deep learning algorithms that can train enormous datasets with millions of parameters using 2D images as input and filtering to get the required outputs. To improve the performance of neural networks, the proposal of residual neural networks has a great contribution to the advancement of the bottleneck of traditional networks. Our goal was to maximize the accuracy of CIFAR-10 by reducing the number of model parameters under limit. On the CIFAR-10 dataset, we reduced the number of parameters and performance is evaluated using different augmentation techniques different regularization techniques on ResNet architectures.
-</div>
+
   
 **Introduction**
 
