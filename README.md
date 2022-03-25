@@ -10,7 +10,9 @@ New York, NY 11201
 
 Project Members:
 Jasmine Batra - jb7854@nyu.edu
+
 Sachin Karthik Kumar - sk9622@nyu.edu
+
 Rudrasinh Nimeshkumar Ravalji - rnr8237@nyu.edu
 
 
