@@ -1,7 +1,9 @@
 **Mini Project 1**
 
 Subject: Deep Learning
+
 Project: Residual Network Design
+
 Language used: Python
 
 Department of Computer Engineering
