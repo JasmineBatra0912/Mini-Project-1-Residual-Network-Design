@@ -15,14 +15,17 @@ Rudrasinh Nimeshkumar Ravalji - rnr8237@nyu.edu
 
 
 **Abstract** 
- Deep Learning algorithms are created to replicate the function of the human cerebral cortex. These algorithms are deep neural network representations, or neural networks with numerous hidden layers. Convolutional neural networks are deep learning algorithms that can train enormous datasets with millions of parameters using 2D images as input and filtering to get the required outputs. To improve the performance of neural networks, the proposal of residual neural networks has a great contribution to the advancement of the bottleneck of traditional networks. Our goal was to maximize the accuracy of CIFAR-10 by reducing the number of model parameters under limit. On the CIFAR-10 dataset, we reduced the number of parameters and performance is evaluated using different augmentation techniques different regularization techniques on ResNet architectures.
+
+Deep Learning algorithms are created to replicate the function of the human cerebral cortex. These algorithms are deep neural network representations, or neural networks with numerous hidden layers. Convolutional neural networks are deep learning algorithms that can train enormous datasets with millions of parameters using 2D images as input and filtering to get the required outputs. To improve the performance of neural networks, the proposal of residual neural networks has a great contribution to the advancement of the bottleneck of traditional networks. Our goal was to maximize the accuracy of CIFAR-10 by reducing the number of model parameters under limit. On the CIFAR-10 dataset, we reduced the number of parameters and performance is evaluated using different augmentation techniques different regularization techniques on ResNet architectures.
   
 **Introduction**
+
 Deep Learning has been developing since the introduction of AlexNet. As with the emergence of GoogleNet, VGG, and Inception, the deeper the number of layers in a network is, the more complex the network is. The deeper the network is, more features can be extracted and the performance will be strong[4]. Residual Networks are one of the most used for image classification. Detecting an object or recognizing an image from a digital image or video is a difficult challenge.[1]. Deep neural networks have layers that extract many features and hence provide multiple degrees of abstraction. This cannot extract or work on numerous data sets unlike shallow networks. By inputting a 2D image and convolving it with filters/kernels and producing output volumes, convolutional neural networks is a sophisticated deep learning algorithm capable of coping with millions of parameters and saving computing cost.
 
 
 **Dataset**
-CIFAR- 10 dataset consists of 60,000 images divided into 10 categories with 32x32 pixel color images as illustrated in In Fig 2 which includes airplanes, cars, birds, cats, deer, dogs, frogs, horse boats and trucks. There are 50000 pictures in the training set and 10000 pictures in the testing set. It has natural photographs in it and aids in the implementation of image detection systems.[2] On the CIFAR-10 dataset, the model is trained with real-time data augmentation. CIFAR-10 is a series of images for teaching a computer to recognize items. Because the images in CIFAR-10 are low-resolution, researchers can quickly test different algorithms to discover which one’s work.
+
+CIFAR- 10 dataset consists of 60,000 images divided into 10 categories with 32x32 pixel color images as illustrated in In Fig 2 which includes airplanes, cars, birds, cats, deer, dogs, frogs, horse boats and trucks. There are 50000 pictures in the training set and 10000 pictures in the testing set. It has natural photographs in it and aids in the implementation of image detection systems. On the CIFAR-10 dataset, the model is trained with real-time data augmentation. CIFAR-10 is a series of images for teaching a computer to recognize items. Because the images in CIFAR-10 are low-resolution, researchers can quickly test different algorithms to discover which one’s work.
 
 
 **How are the goals of the problem statement achieved?**
@@ -38,6 +41,7 @@ CIFAR- 10 dataset consists of 60,000 images divided into 10 categories with 32x3
 
 
 **II. Data augmentation:**
+
 Data augmentation techniques can be used to artificially expand by carefully choosing transforms. Data augmentation techniques involve data image distortion and alteration for processing to obtain more data. The following are some of the techniques we have used: 
   1. Random cropping: 
   Cropping some areas of the image and dividing it into subsets from the main image. Output size of the randomCrop will be 32. Padding parameters will add white spaces to the edge of the image before cropping such as 0 padding to left , padding of size 2 to top, padding of size 3 to top and padding of size 4 to bottom.
@@ -47,7 +51,7 @@ Data augmentation techniques can be used to artificially expand by carefully cho
   When we perform a horizontal flip the object inside the image remains the same but the change is in the angle of the object present in the image. It will randomly flip the image horizontally with probability of 0.5.
 
 **III. Optimizers**
-Optimizers:
+
 There is a wide range of optimizers available when training a resnet model. The mainly used optimizers are:
 
   1. RMSprop:
