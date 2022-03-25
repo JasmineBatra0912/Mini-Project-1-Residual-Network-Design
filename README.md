@@ -67,21 +67,23 @@ After completing the preprocessing stage, the ResNet model is used to learn. Eac
 Count of parameters	4368690
 Test Accuracy Achieved	91.23%
 
-Optimizer	  Learning rate	  Accuracy (%)
-Adam	        0.001	          91.23
-RMSprop	      0.001         	90.07
-Adagrad	      0.001	          81.44
-Adadelta	    0.001	          66.68
-SGD	          0.001	          79.79
+|		Optimizer	  | Learning rate |		Accuracy	 |
+| ------------- | ------------- |	------------ |			
+| 		Adam 			|		 	0.001 		|			91.23		 |
+| 		RMSprop	  | 		0.001 		|			90.07		 |
+| 		Adagrad		|		 	0.001 		|			81.44		 |
+| 		Adadelta  | 		0.001 		|			66.68		 |
+| 		SGD				|		 	0.001 		|			79.79		 |
 
+|		Optimizer	  | Learning rate |		Accuracy	 |
+| ------------- | ------------- |	------------ |			
+| 		RMSprop		|		 	0.0001 		|			87.62		 |
+| 		RMSprop	  | 		0.001 		|			90.07		 |
+| 		RMSprop		|		 	0.01 			|			88.62		 |
+| 		Adam		  | 		0.0001 		|			89.44		 |
+| 		Adam			|		 	0.001 		|			91.23		 |
+| 		Adam			|		 	0.01 			|			89.73		 |
 
-Optimizer	  Learning Rate	  Accuracy (%)
-RMSprop	      0.0001	        87.62
-RMSprop	      0.001	          90.07
-RMSprop	      0.01	          88.62
-Adam	        0.0001	        89.44
-Adam	        0.001	          91.23
-Adam	        0.01	          89.73
 
 Adam achieved the highest Test accuracy.
 
@@ -89,7 +91,7 @@ Adam achieved the highest Test accuracy.
 
   1. Copy the repository link from GitHub Repository.
   2. Open terminal and Git Clone respository link. You will see the downloaded project1_model.py in the folder.
-  2. Run project1_model.py in the terminal.
-  3. .out file will be generated which will have the test and train accuracy in the same directory 
+  3. Run project1_model.py in the terminal.
+  4. .out file will be generated which will have the test and train accuracy in the same directory 
 
 
