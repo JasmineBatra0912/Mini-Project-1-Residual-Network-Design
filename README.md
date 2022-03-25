@@ -7,8 +7,6 @@ Project: Residual Network Design
 Language used: Python
 
 Department of Computer Engineering
-New York University
-New York, NY 11201	
 
 Project Members:
 
