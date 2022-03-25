@@ -9,9 +9,7 @@ New York University
 New York, NY 11201	
 
 Project Members:
-Jasmine Batra - jb7854@nyu.edu
-Sachin Karthik Kumar - sk9622@nyu.edu
-Rudrasinh Nimeshkumar Ravalji - rnr8237@nyu.edu
+Jasmine Batra - jb7854@nyu.edu, Sachin Karthik Kumar - sk9622@nyu.edu, Rudrasinh Nimeshkumar Ravalji - rnr8237@nyu.edu
 
 
 **Abstract** 
@@ -69,6 +67,7 @@ There is a wide range of optimizers available when training a resnet model. The 
 After completing the preprocessing stage, the ResNet model is used to learn. Each architecture layer on ResNet has its own set of conditions for its development. The convolution layer is commonly used in feature learning models. The ResNet architecture includes a batch normalization, activation and pooling layer in addition to the convolution layer. Following the convolution layer, batch normalization is used, and the activation layer uses ReLu activation function. There are residual blocks in each ResNet architecture that divide the convolution layer into four layers.
 
 Count of parameters	4368690
+
 Test Accuracy Achieved	91.23%
 
 |		Optimizer	  | Learning rate |		Accuracy	 |
